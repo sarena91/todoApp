@@ -30,12 +30,16 @@ export default {
     text-decoration: line-through;
   }
   .del {
-    background: #ff0000;
+    background: #2c3e50;
     color: #fff;
     border: none;
     padding: 5px 9px;
     border-radius: 50%;
     cursor: pointer;
     float: right;
+  }
+
+  .del:hover {
+    background: red;
   }
 </style>
